@@ -1,0 +1,10 @@
+.babelrc
+demo/
+src/
+.idea/
+readMeMedia/
+.eslintrc
+package-lock.json
+.cache
+node_modules/
+dist/
