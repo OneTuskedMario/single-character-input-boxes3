@@ -1,4 +1,4 @@
-declare module "react-individual-character-input-boxes" {
+declare module "react-individual-character-input-boxes3" {
   import * as React from "react";
 
   export interface RICIBsProps {

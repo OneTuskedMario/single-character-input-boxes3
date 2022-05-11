@@ -65,7 +65,9 @@ class ReactIndividualCharacterInputBoxes extends Component {
 
   handleChange ({ target }) {
     if (target.value.match(this.props.inputRegExp)) {
+      setTimeout(() => {
       this.focusNextChar(target)
+    }, 1)
       this.setModuleOutput(target)
     } else {
       target.value = this.state.characterArray[target.name.replace('input', '')]
